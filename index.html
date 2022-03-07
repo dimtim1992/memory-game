@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Memory game</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="https://rolling-scopes-school.github.io/dimtim1992-JSFEPRESCHOOL/js30-3/" class="logo"><img src="./assets/png/logo.png" alt="logo" class="logo-img"></a>
+            <div class="move"><p class="text-move"></p></div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <div class="result">
+                <p class="text-result"></p>
+                <button class="button-result">Еще раз</button>
+                <p class="last-game-name">Последние рекорды</p>
+                <ol class="last-game">
+                    
+                </ol> 
+            </div>
+            <div class="dark-screen"></div>
+            <section class="memory-game">
+                <div class="memory-card" data-animal="turtle">
+                    <img class="front-face" src="./assets/png/front-1-hope.png" alt="turtle">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="turtle">
+                    <img class="front-face" src="./assets/png/front-1-hope.png" alt="turtle">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="crab">
+                    <img class="front-face" src="./assets/png/front-2-hope.png" alt="crab">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="crab">
+                    <img class="front-face" src="./assets/png/front-2-hope.png" alt="crab">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="jellyfish">
+                    <img class="front-face" src="./assets/png/front-3-hope.png" alt="jellyfish">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="jellyfish">
+                    <img class="front-face" src="./assets/png/front-3-hope.png" alt="jellyfish">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="stingray">
+                    <img class="front-face" src="./assets/png/front-4-hope.png" alt="stingray">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="stingray">
+                    <img class="front-face" src="./assets/png/front-4-hope.png" alt="stingray">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="whale">
+                    <img class="front-face" src="./assets/png/front-5-hope.png" alt="whale">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="whale">
+                    <img class="front-face" src="./assets/png/front-5-hope.png" alt="whale">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="starfish">
+                    <img class="front-face" src="./assets/png/front-6-hope.png" alt="starfish">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="starfish">
+                    <img class="front-face" src="./assets/png/front-6-hope.png" alt="starfish">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="seahorse">
+                    <img class="front-face" src="./assets/png/front-7-hope.png" alt="seahorse">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="seahorse">
+                    <img class="front-face" src="./assets/png/front-7-hope.png" alt="seahorse">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="blowfish">
+                    <img class="front-face" src="./assets/png/front-8-hope.png" alt="blowfish">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="blowfish">
+                    <img class="front-face" src="./assets/png/front-8-hope.png" alt="blowfish">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="shell">
+                    <img class="front-face" src="./assets/png/front-9-hope.png" alt="shell">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="shell">
+                    <img class="front-face" src="./assets/png/front-9-hope.png" alt="shell">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="urchin">
+                    <img class="front-face" src="./assets/png/front-10-hope.png" alt="urchin">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="urchin">
+                    <img class="front-face" src="./assets/png/front-10-hope.png" alt="urchin">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="dolphin">
+                    <img class="front-face" src="./assets/png/front-11-hope.png" alt="dolphin">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="dolphin">
+                    <img class="front-face" src="./assets/png/front-11-hope.png" alt="dolphin">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="mussel">
+                    <img class="front-face" src="./assets/png/front-12-hope.png" alt="mussel">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+                <div class="memory-card" data-animal="mussel">
+                    <img class="front-face" src="./assets/png/front-12-hope.png" alt="mussel">
+                    <img class="back-face" src="./assets/png/back-question.png" alt="Memory card">
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <p>&copy;</p>
+                <p>2022</p>
+                <a href="https://github.com/dimtim1992" class="github">github</a>
+            </div>
+            <a href="https://rs.school/js-stage0/" class="rss-logo"><img src="./assets/png/rs_school_js.png" alt="RSS-logo" class="rss-logo-img"></a>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
